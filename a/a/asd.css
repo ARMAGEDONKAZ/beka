@@ -1,0 +1,102 @@
+
+@font-face {
+    font-family: 'Gotham Pro Light';
+    src: url('GothamPro-Light.eot');
+    src: url('GothamPro-Light.eot?#iefix') format('embedded-opentype'),
+    url('GothamPro-Light.woff') format('woff'),
+    url('GothamPro-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    background-color: blue;
+    width: 100vw;
+    box-sizing: border-box;
+    
+}   
+.navbar{
+    background: #262626 !important;
+}
+#button1{
+    width: 130px;
+  height: 36px;
+  border-radius: 4px;
+  background-color: #eec643;
+  color: white;
+  font-size: 15px;
+}
+#text1{
+    color: white;
+}
+#button2 {
+border: none;
+color: green;
+width: 100px;
+height: 36px;
+border-radius: 4px;
+background-color: #262626;   
+text-align: center;
+text-decoration: none;
+display: inline-block;
+}
+.navbar-nav {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+     background:#262626;
+    
+}
+  
+.navbar-nav li {
+    float: none ;
+    display: inline-block;
+    background:#262626;
+
+}
+
+header{
+    background:#262626;
+}
+
+header nav{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+#recHR {
+  margin-left: 3px; 
+  width: 1px;
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0.4);
+  margin-top:3px;
+  margin-bottom: 3px;
+
+}
+
+ul li{
+    font-size: 12px;
+}
+
+.logo_text{
+    font-size: 12px;
+}
+
+.imgs{
+    flex-flow: row wrap;        
+    width: 60%;
+    justify-content: space-around;
+    margin: 0px;
+    padding: 0px;
+}
+
+.jumbotron{
+    margin: 0px;
+    padding: 0px;
+    background: pink;
+}
+
+.jumbotron_container{
+    background: red;
+    width: 90%;
+    margin: 0 auto;
+}
