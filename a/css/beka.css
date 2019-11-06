@@ -9,10 +9,22 @@ ul, li{
 .header{
     background: #2b2b2b;
     color: white;
+    padding-top: 10px;
+}
+.header_center{
+  width: 1366px;
+  height: 768px;
+  background-color: #181818;
 }
 .logo{
-    height: 9vw;
-    width: 12vw;
+  margin-top:7px;
+    width: 101px;
+  height: 36px;
+  object-fit: contain;
+
+}
+#da{
+  margin-top: -4px;
 }
 .button1{
         background-color: #2b2b2b;
@@ -23,25 +35,71 @@ ul, li{
         text-decoration: none;
         display: inline-block;
         font-size: 16px;
+        
 }
 .button2 {
-    background-color: rgb(227, 243, 10); 
     border: none;
     color: white;
-    padding: 15px 32px;
+    width: 130px;
+    height: 36px;
+    border-radius: 4px;
+    background-color: #eec643;   
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-  }
-.menu{
 
+  }
+.rectangle{
+  margin-top: 9px;
+    width: 1px;
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.line22{
+  margin-top: 6px;
+  width: 239px;
+  height: 30px;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+.menu{
+  margin-top: 9px;
 }
 .menu__item{
-
+  margin: 0 20px;
 }
 .menu__item a{
     font-size: 12px;
     font-weight: 700;
-    color:#000;
+    color:rgba(255, 255, 255, 0.4);
+}
+#text11{
+  width: 769px;
+  height: 170px;
+  font-family: GothamPro;
+  font-size: 45px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+.text22{
+  width: 769px;
+  height: 170px;
+  font-family: GothamPro;
+  font-size: 45px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  color: #ebb430;
+
 }

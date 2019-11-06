@@ -1,0 +1,148 @@
+
+@font-face {
+    font-family: 'Gotham Pro Light';
+    src: url('GothamPro-Light.eot');
+    src: url('GothamPro-Light.eot?#iefix') format('embedded-opentype'),
+    url('GothamPro-Light.woff') format('woff'),
+    url('GothamPro-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    background-color: #f2f2f2;
+    width: 100vw;
+    box-sizing: border-box;
+    
+}   
+#color{
+    color: #f2f2f2;
+}
+#dot{
+    background: #f2f2f2;
+    margin-top: 10px;
+
+}
+.navbar{
+    background: #262626 !important;
+}
+.textlong{
+    margin: 0 auto;
+    font-size: 8px;
+}
+#sudy{
+    margin-top:5px;
+}
+.textlong{
+    margin-top:-28px;
+    margin-left: 42px;
+}
+.textlong3{
+    margin-top:-28px;
+    margin-left: 42px;
+    font-size: 7px;
+}
+.textlong_sudy{
+    font-size: 8px;
+    margin-top:-28px;
+    margin-left: 50px;
+}
+#button1{
+    width: 130px;
+  height: 36px;
+  border-radius: 4px;
+  background-color: #eec643;
+  color: white;
+  font-size: 15px;
+}
+#jumb{
+    background: #181818;
+}
+#text_jumb{
+    margin-top:20%; 
+    color:white;
+}
+#text_jumb2{
+    color:#ebb430;
+}
+
+#text1{
+    color: white;
+}
+#button2 {
+border: none;
+color: green;
+width: 100px;
+height: 36px;
+border-radius: 4px;
+background-color: #262626;   
+text-align: center;
+text-decoration: none;
+display: inline-block;
+}
+.navbar-nav {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+     background:#262626;
+    
+}
+#digit{
+    margin-top: 80px;
+}
+.clearfix{
+    background:#ffffff;
+}
+#clearfix{
+    background:#ffffff;
+}
+.navbar-nav li {
+    float: none ;
+    display: inline-block;
+    background:#262626;
+}
+header{
+    background:#262626;
+}
+header nav{
+    width: 90%;
+    margin: 0 auto;   
+}
+#recHR {
+  margin-left: 3px; 
+  width: 1px;
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0.4);
+  margin-top:3px;
+  margin-bottom: 3px;
+}
+ul li{
+    font-size: 12px;
+}
+.logo_text{
+    font-size: 12px;
+}
+.imgs{
+    flex-flow: row wrap;        
+    width: 60%;
+    justify-content: space-around;
+    margin: 0px;
+    padding: 0px;
+}
+.jumbotron{
+    margin: 0px;
+    padding: 0px;
+    background:#181818;
+}
+.jumbotron_container{
+    width: 90%;
+    margin: 0 auto;
+}
+.section-header22{
+    background: #ffffff;
+}
+.section_title{
+
+}
+#photo_iphone{
+    margin-top:5vw;
+}
