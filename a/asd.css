@@ -19,32 +19,10 @@ body{
 }
 #dot{
     background: #f2f2f2;
-    margin-top: 10px;
-
+    margin-top: 10px;s
 }
 .navbar{
     background: #262626 !important;
-}
-.textlong{
-    margin: 0 auto;
-    font-size: 8px;
-}
-#sudy{
-    margin-top:5px;
-}
-.textlong{
-    margin-top:-28px;
-    margin-left: 42px;
-}
-.textlong3{
-    margin-top:-28px;
-    margin-left: 42px;
-    font-size: 7px;
-}
-.textlong_sudy{
-    font-size: 8px;
-    margin-top:-28px;
-    margin-left: 50px;
 }
 #button1{
     width: 130px;
@@ -83,7 +61,7 @@ display: inline-block;
     width: 60%;
     text-align: center;
     margin: 0 auto;
-     background:#262626;
+    background:#262626;
     
 }
 #digit{
@@ -101,6 +79,7 @@ display: inline-block;
     background:#262626;
 }
 header{
+    width: 100%;
     background:#262626;
 }
 header nav{
@@ -118,15 +97,13 @@ header nav{
 ul li{
     font-size: 12px;
 }
-.logo_text{
-    font-size: 12px;
-}
 .imgs{
     flex-flow: row wrap;        
     width: 60%;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 0px;
     padding: 0px;
+    margin-top: 30px;
 }
 .jumbotron{
     margin: 0px;
@@ -145,4 +122,165 @@ ul li{
 }
 #photo_iphone{
     margin-top:5vw;
+}
+
+.logos .p-4{
+    padding: 15px !important;
+    height: 65px;
+    text-align: center;
+    width: 350px;
+    margin: 0 auto;
+}
+
+.logos{
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+}
+
+.logos p{
+    float: right;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 50%;
+    padding: 5px 10px 5px 10px;
+    font-size: 15px;
+}
+
+
+@media ( min-width: 850px ){
+    .logos p{
+        display: none;
+    }
+
+    .logos .p-4{    
+        width: 125px;
+        margin: 0;
+    }
+    
+    .logos{
+        flex-direction: row; 
+    }
+
+}
+
+@media ( min-width: 1200px ){
+    .logos p{
+        display: inline-block;
+        padding: 5px 10px 5px 10px;
+        font-size: 8px;
+    }
+
+    .logos .p-4{    
+        width: 170px;
+        margin: 0;
+    }
+    
+    .logos{
+        flex-direction: row; 
+    }
+
+}
+
+.icons{
+    background: #ebb430;
+    text-align:  center;
+    padding: 30px;
+}
+.main_text{
+    text-align: center;
+}
+
+.icons img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.icons p{
+    margin-top: 20px;
+}
+.problems{
+    background: #ffffff;
+    text-align:  center;
+    padding: 30px;
+    padding-top: 80px;
+}
+
+.problems .row{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.problems .first{
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.problems p{
+    margin-top: 30px;
+}
+.problems h5{
+    margin-top: 30px;
+}
+.problem{
+    padding: 10px;
+    color: grey;
+}
+
+.problems .active{
+    border-top: 2px solid #ebb430;
+    color: black;
+}
+.reshenye{
+    margin-top: 25px;
+    position: relative;
+    height: 258px;
+    background: #f2f2f2;
+    text-align: left;
+    padding: 30px 50px 0 70px;
+}
+.reshenye p{
+    font-size: 20px;
+}
+.reshenye img{
+    position: absolute;
+    top: 40px;
+    left: 30px;
+}
+
+.reshenye h1{
+    font-size: 34px;
+}
+
+@media(min-width: 1005px){
+    
+    .image{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .reshenye{
+        width: 700px;
+        margin: 0 auto;
+    }
+}
+
+.podd h1{
+    font-size: 34px;
+}
+.step1{
+    width: 370px;
+    height: 187px;
+    background: #ffffff;
+}
+.step2{
+    width: 370px;
+    height: 187px;
+    background: #ffffff;
+}
+.step3{
+    width: 370px;
+    height: 187px;
+    background: #ffffff;
 }
